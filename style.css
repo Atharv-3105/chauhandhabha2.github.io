@@ -33,7 +33,7 @@
     color: rgb(251, 250, 253);
     }
    .navbar  ul a:hover{
-        color: rgb(255, 166, 1);
+        color: rgb(39, 1, 255);
         border: 1px solid black;
         border-radius: 15px;
 
@@ -74,8 +74,9 @@
         font-size: 3.8rem;
     }
     .background h3{
-        font-size: 3rem;
+        font-size: 3.5rem;
         font-family: 'Poppins', sans-serif;
+        text-shadow: 5px 2px #ff354c;
     }
     .background p{
         font-family: 'Oswald', sans-serif;
@@ -203,7 +204,7 @@
     }
     .Aboutus{
         margin-top: 120px;
-        background-color: aquamarine;
+        background-color: #ff354c;
         color: white;
     }
     .Aboutus p{
@@ -229,6 +230,33 @@
         text-decoration: solid;
     }
    
+     h5{
+        font-family: 'Oswald', sans-serif;
+      
+        font-size: 25px;
+    }
+    .author{
+        display: flex;
+        border: 1px solid grey;
+    }
+    .author ul{
+        display: flex;
+        margin: 0px 1px;
+        padding: 1px 2px;
+    }
+    
+    .author ul li{
+        display: flex;
+        margin: 0px 3px;
+        padding: 1px 3px;
+    }
+    .author p{
+        margin-top: 10px;
+        font-size: 13px;
+        text-decoration:double;
+        font-family: 'Poppins', sans-serif;
+    }
+    
 
     
 
